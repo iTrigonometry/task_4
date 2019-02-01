@@ -4,5 +4,6 @@ public class Date_Author {
         Date date =  new Date();
 
         System.out.print(date.toString());
+
     }
 }
