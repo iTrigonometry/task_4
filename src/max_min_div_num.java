@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class max_min_div_num {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-
+        //123
         System.out.print("Введите количество чисел: ");
 
         int n = input.nextInt();
