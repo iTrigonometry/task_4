@@ -12,7 +12,7 @@ public class max_min_div_num {
 
         int[] arr = new int[n];
 
-
+//hi
         int num_Input;
         for (int i = 0; i < n; i++) {
             System.out.print("Введите число: ");
