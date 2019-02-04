@@ -7,28 +7,20 @@ public class divide_5_10 {
         Scanner input = new Scanner(System.in);
         try {
             System.out.print("Введите количество чисел: ");
-
             int n = input.nextInt();
-
-            System.out.print("\n");
-
             int[] arr = new int[n];
 
 
-            int num_Input;
+
             for (int i = 0; i < n; i++) {
-                System.out.print("Введите число: ");
-                num_Input = input.nextInt();
-                arr[i] = num_Input;
-                System.out.print("\n");
+                System.out.print("\nВведите число: ");
+                arr[i] = input.nextInt();
             }
 
             boolean div5 = false;
             boolean div10 = false;
 
             System.out.print("Числа которые делятся на 5: ");
-
-
             for (int i = 0; i < n; i++) {
                 if (arr[i] % 5 == 0) {
                     System.out.print(arr[i] + " ");
