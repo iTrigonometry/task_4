@@ -1,6 +1,9 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести числа, которые делятся на 3 или на 9.
+ */
 public class divide_3_9 {
     public static void main(String[] args) {
 
@@ -23,6 +26,7 @@ try {
     System.out.print("Числа которые делятся на 3: ");
     for (int i = 0; i < n; i++) {
         if (arr[i] % 3 == 0) {
+            if (arr[i] == 0) continue;
             System.out.print(arr[i] + " ");
             div3 = true;
         }
@@ -35,6 +39,7 @@ try {
     System.out.print("\nЧисла которые делятся на 9: ");
     for (int i = 0; i < n; i++) {
         if (arr[i] % 9 == 0) {
+            if (arr[i] == 0) continue;
             System.out.print(arr[i] + " ");
             div9 = true;
         }

@@ -1,7 +1,10 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести четные и нечетные числа
+ */
 public class even_odd {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

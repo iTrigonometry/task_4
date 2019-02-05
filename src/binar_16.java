@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+Создайте приложение, которое осуществит перевод чисел из десятичной
+системы счисления в двоичную и шестнадцатеричную.
+ */
 public class binar_16 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

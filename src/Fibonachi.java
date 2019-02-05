@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести числа Фибоначчи: f0 = f1 = 1, f (n) = f (n-1) + f (n-2).
+ */
 public class Fibonachi {
     static public void main(String[] args){
         ArrayList<Long> nums = new ArrayList<Long>();

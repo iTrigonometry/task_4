@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести простые числа.
+ */
 public class Natural_Number {
 
     public static void main(String[] args){
@@ -27,7 +31,6 @@ class Simple_Num{ //простые числа это те числа котор�
             //делаем это пока остаток от деления не будет равен 0
             if(num % var != 0){
                 var++;
-                //System.out.print(var + " ");
                 check_Number(num);
             }else if (num % var == 0){
                 print_Result(num, var);

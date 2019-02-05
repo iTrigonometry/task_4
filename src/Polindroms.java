@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести числа-полиндромы, значения которых в прямом и обратном порядке совпадают.
+ */
 public class Polindroms {
     public static void main(String[] args){
 

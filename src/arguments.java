@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+Написать программу ввода целых чисел как аргументов командной строки,
+ подсчета их суммы (произведения) и вывода результата на консоль.
+ */
 public class arguments {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

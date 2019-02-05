@@ -1,6 +1,9 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести числа, которые делятся на 5 или на 10.
+ */
 public class divide_5_10 {
     public static void main(String[] args) {
 
@@ -23,6 +26,7 @@ public class divide_5_10 {
             System.out.print("Числа которые делятся на 5: ");
             for (int i = 0; i < n; i++) {
                 if (arr[i] % 5 == 0) {
+                    if (arr[i] == 0) continue;
                     System.out.print(arr[i] + " ");
                     div5 = true;
                 }
@@ -35,6 +39,7 @@ public class divide_5_10 {
 
             for (int i = 0; i < n; i++) {
                 if (arr[i] % 10 == 0) {
+                    if (arr[i] == 0) continue;
                     System.out.print(arr[i] + " ");
                     div10 = true;
                 }

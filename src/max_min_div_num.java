@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести наибольший общий делитель и наименьшее общее кратное этих чисел
+ */
 public class max_min_div_num {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

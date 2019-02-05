@@ -1,13 +1,17 @@
 import java.util.Scanner;
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести период десятичной дроби р = m/n для первых двух целых
+положительных чисел n и m, расположенных подряд.
+ */
 public class Period {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-
+        //просим ввести количество чисел
         System.out.println("Введите количество чисел которые вы хотите ввести: ");
         int n = input.nextInt();
         Integer[] arrOfNums = new Integer[n];
-
+        //заполняем массив
         for(int index = 0; index < n; index++){
             System.out.print("Введите число: ");
             arrOfNums[index] = input.nextInt();

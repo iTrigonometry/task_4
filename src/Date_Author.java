@@ -1,4 +1,10 @@
 import java.util.Date;
+/*
+Написать приложение, выводящее фамилию разработчика, дату и время
+получения задания, а также дату и время сдачи задания. Для получения последней даты и
+времени использовать класс Date из пакета Java.util
+(Объявление объекта Date d = new Date();) или статический метод класса System.currentTimeMillis ().
+ */
 public class Date_Author {
     public static void main(String[] args){
         //ругается на deprecated int int int int int int int int ПАЧИМУ? ОНО ЖЫ РАБОТАЕТ

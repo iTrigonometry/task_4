@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+Ввести с консоли n целых чисел и поместить их в массив.
+На консоль вывести "счастливые" числа.
+ */
 public class Lucky_Nums {
     public static void main(String[] Sashenka){
         Scanner input = new Scanner(System.in);
@@ -29,6 +32,7 @@ public class Lucky_Nums {
         }
         if (!lucky)//сообщаем о том что таких чисел нет 
             System.out.print("\nСчасливых чисел не найдено((((");
+
 
     }
 }
