@@ -3,8 +3,10 @@ import java.util.Scanner;
 
 public class n_Str {
     public static void main(String[] args){
+        System.out.print("Введите пожалуйста число работы цикла сос стороками: ");
         int n = new Scanner(System.in).nextInt();
-
+        System.out.println();
+        //просто рандомновыводим строки
         Random rand = new Random();
         for(int i = 0; i<n; i++){
             int rnum = rand.nextInt(80) - 30;

@@ -3,15 +3,14 @@ import java.util.Scanner;
 public class Ferma {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-
+        // вводим степень
         System.out.print("Введите степень: ");
         int n = input.nextInt();
-
-        if (n>1){
-
+        //услоие добавлено для того чтобы просто показать что при н больше 2 вы никогда не найдете решения
+        if (n>0){
             double result, c;
             int a,b;
-            boolean triger = true;
+            boolean triger = true;//для определения того что решение есть или нет
             System.out.println("Целочисленные решения теоремы ферма от 1 до 100:");
             for (int i = 1; i<101; i++){
                 for (int j = 1; j < 101; j++) {
@@ -19,8 +18,8 @@ public class Ferma {
                     b = j;
 
                     c = Math.pow(a, n) + Math.pow(b, n);
-                    result = Math.pow(c, 1.0 / n);
-                    if (result == (int) result) {
+                    result = Math.pow(c, 1.0 / n);//точка 0 важны так как изначально все числа считаются int
+                    if (result == (int) result) {// 2.0 == 2
                         System.out.println("a " + a + " b " + b + " result " + result);
                         triger = false;
                     }

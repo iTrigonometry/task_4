@@ -4,18 +4,18 @@ public class Pascal {
     public static void main(String[] args){
         int overflow, firstNum = 0;
         Scanner input = new Scanner(System.in);
-
-        System.out.print("Введите количество чисел которое вы хотите ввести");
+        //вводим кколичество чисел
+        System.out.print("Введите количество чисел которое вы хотите ввести:");
         overflow = input.nextInt();
 
-
+        //заполняем массив
         int[] nums = new int[overflow];
         for(int i = 0; i<overflow;i++){
-            System.out.print("Введите число: ");
+            System.out.print("\nВведите число: ");
             nums[i]= input.nextInt();
-            System.out.println();
         }
 
+        //нахоодим первое положительное число
         for (int i:nums){
             if (i > 0){
                 firstNum = i;
@@ -25,7 +25,7 @@ public class Pascal {
             }
         }
 
-
+        //рисуем треугольник
         PascalTriangle pas = new PascalTriangle(overflow, firstNum);
         pas.show();
     }
